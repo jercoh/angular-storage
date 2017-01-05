@@ -17,7 +17,7 @@ var gulp = require('gulp'),
       'src/angularStorage/**/*.js',
       'test/**/*.js',
       'gulpfile.js'
-    ];
+    ] || [];
 
 gulp.task('lint', function() {
   return gulp.src(lintFiles)
